@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+rm -rf test
+mkdir -p test
+
+mkdir -p test/one
+touch test/one/foo
+touch test/one/bar
+
+mkdir -p test/one/a
+touch test/one/a/foo
+touch test/one/a/bar
+
+mkdir -p test/one/b
+touch test/one/b/foo
+touch test/one/b/bar
