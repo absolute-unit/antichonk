@@ -6,12 +6,11 @@ import json
 import shutil
 from datetime import datetime
 from pathlib import Path
-from IPython import embed
 from pathlib import Path
 
 def print_help():
     print("Interactive program to delete files based on certain characteristics")
-    print("usage: script/delete_files DIRECTORY(TV|Movies|downloads) ORDER_BY(age|size)")
+    print("usage: sudo antichonk.py DIRECTORY(TV|Movies|downloads) ORDER_BY(age|size)")
 
 def ensure_user_is_root():
     if os.geteuid() != 0:
